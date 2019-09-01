@@ -1,0 +1,245 @@
+section {
+    padding: 100px 0;
+    text-align: center;
+}
+section h3 {
+    font-size: 45px;
+}
+section p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+section ul {
+    padding: 20px 0;
+}
+/* heroes */
+.ct-heroes .heroes li {
+    width: 25%;
+    margin-top: 30px;
+    text-align: center;
+    float: left; 
+}
+.ct-heroes .heroes li > img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #444;
+    border-radius: 50%;
+}
+.ct-heroes .heroes li > h4 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+.ct-heroes .heroes li > p {
+    font-size: 17px;
+}
+/* movies */
+.ct-movies {
+    background-color: rgb(247,247,247);
+}
+.ct-movies .movies li {
+    width: calc(33.33% - 60px);
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    float: left;
+}
+.ct-movies .movies li > img {
+    width: 100%;
+    height: 220px;
+}
+.ct-movies .movies li > h4 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.ct-movies .movies li > p {
+    font-size: 16px;
+}
+.ct-movies .movies li > a::before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ct-movies .movies li > a {
+    display: inline-block;
+    width: 100%;
+    height: 220px;
+    background-color: #666;
+}
+.ct-movies .movies li > a:hover {
+    opacity: 0.95;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.ct-movies .movies li > a img {
+    width: 30%;
+    vertical-align: middle;
+}
+/* timeline */
+section .timeline li {
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+}
+/* the line */
+section .timeline li::before {
+    content: '';
+    width: 4px;
+    height: 66px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    margin-left: -2px;
+    background-color: #444;
+}
+section .timeline li:nth-last-child(1)::before {
+    height: 0;
+}
+section .timeline li:nth-child(odd) {
+    padding-right: calc(50% - 75px);
+    text-align: right;
+}
+section .timeline li:nth-child(even) {
+    padding-left: calc(50% - 75px);
+    text-align: left;
+}
+section .timeline li > img {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border: 4px solid #444;
+    border-radius: 50%;
+}
+section .timeline li > img:hover {
+    opacity: 0.95;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+section .timeline li:nth-child(odd) > img {
+    float: right;
+}
+section .timeline li:nth-child(even) > img {
+    float: left;
+}
+section .timeline li:nth-child(odd) > dl {
+    padding-right: 180px;
+    margin: 30px 0
+}
+section .timeline li:nth-child(even) > dl {
+    padding-left: 180px;
+    margin: 30px 0;
+}
+.timeline li dl > dt {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.timeline li dl > dd:nth-of-type(1) {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+/* the last timeline */
+.timeline li span {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #444;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 75px);
+    padding:50px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #444;
+    cursor: pointer;
+}
+.timeline li span:hover {
+    opacity: 0.95;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+/* Writer */
+.ct-writer {
+    background-color: rgb(247,247,247);
+    margin-top: 150px;
+}
+section .writer {
+    margin-top: 30px;
+}
+section .writer li {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    float: left;
+}
+section .writer li > img {
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+section .writer li > h4 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+section .writer li > p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+section .writer li > div img {
+    margin: 10px;
+}
+section .quotes {
+    color: #666;
+    font-size: 16px;
+    margin-top: 50px;
+}
+/* ad */
+.ct-ad {
+    padding: 0;
+}
+.ct-ad .ad li {
+    width: calc(25% - 60px);
+    margin: 30px;
+    float: left;
+}
+/* Contact Us */
+.ct-send {
+    height: 100%;
+    background: url(../img/Contact.jpg) center no-repeat;
+    background-size: cover;
+}
+.ct-send h3 {
+    color: #fff;
+}
+.ct-send p {
+    color: #fff;
+}
+.ct-send div {
+    width: calc(50% - 40px);
+    margin: 30px 20px;
+    float: left;
+}
+.ct-send .ct-info input {
+    width: 400px;
+    margin: 20px;
+    padding: 15px;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    border-radius: 3px;
+    float: right;
+}
+.ct-send .ct-msg textarea {
+    width: 400px;
+    height: 230px;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: inherit;
+    border: 2px solid #f1f1f1;
+    border-radius: 3px;
+    float: left;
+}

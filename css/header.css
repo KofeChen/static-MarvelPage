@@ -1,0 +1,46 @@
+header {
+    height: 100%;
+    background: url(../img/header.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+header .navbar .nav {
+    float: right;
+}
+header .navbar .nav > li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    float: left;
+}
+header .navbar .nav > li a {
+    color: rgb(234,25,30);
+    padding: 5px 5px;
+}
+header .navbar .nav > li a:hover {
+    color: #fff;
+    background: rgb(234,25,30);
+    border-radius: 3px;
+    box-shadow: 0 4px 10px 0 rgba(255,255,255,0.9), 0 6px 20px 0 rgba(255,255,255,0.9) !important;
+}
+header .intro {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+header .intro p {
+    color: #fff;
+    font-size: 45px;
+    font-style: italic;
+    font-family: Georgia;
+}
+header .intro h2 {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+}
